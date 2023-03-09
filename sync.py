@@ -2,19 +2,13 @@ import os
 
 import Crowbars
 import Panopto
-from CS390 import CS390
-from CS453 import CS453
-from CS488 import CS488
-from CS490 import CS490
-from CS499 import CS499
+from BUSI610 import BUSI610
+from BUSI690 import BUSI690
 
 def start_parsing(session):
     classes = [
-        CS390(),
-        CS453(),
-        CS488(),
-        CS490(),
-        CS499()
+        BUSI610(),
+        BUSI690()
     ]
 
     for cs_class in classes:
